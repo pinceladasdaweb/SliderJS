@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <title>SliderJS - jQuery Slider with CSS Transitions</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+
+        <a href="https://github.com/pinceladasdaweb/SliderJS"><img style="position:absolute; top:0; right:0; border:0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+        <h1>jQuery Slider with CSS Transitions</h1>
+
+        <div class="slider">
+            <div class="slider-container">
+                <div class="slider-warpper">
+                    <div class="slide">
+                        <img src="assets/img/img1.jpg" alt="jQuery Slider with CSS Transitions">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/img2.jpg" alt="jQuery Slider with CSS Transitions">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/img3.jpg" alt="jQuery Slider with CSS Transitions">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/img4.jpg" alt="jQuery Slider with CSS Transitions">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="assets/js/slider.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                Slider.init({
+                    target: $('.slider'),
+                    time: 6000
+                });
+            })();
+        </script>
+    </body>
+</html>
