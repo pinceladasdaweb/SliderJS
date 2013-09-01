@@ -13,7 +13,7 @@ var supports = (function () {
     'use strict';
     /*global document*/
     var style   = document.createElement('div').style,
-        vendors = ['Moz', 'Webkit', 'Khtml', 'O', 'ms'],
+        vendors = ['', 'Moz', 'Webkit', 'Khtml', 'O', 'ms'],
         prefix, i, l;
 
     return function (prop) {
@@ -33,7 +33,7 @@ var supports = (function () {
         }
         return false;
     };
-}());
+})();
 
 var Slider = (function ($) {
     'use strict';
