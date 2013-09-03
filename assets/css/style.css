@@ -84,6 +84,7 @@ h1 {
     overflow: hidden;
     position: absolute;
     top: 0;
+    width: 5000em; /*Fix for prevent display errors*/
 
     -webkit-transition: all 800ms ease;
        -moz-transition: all 800ms ease;
