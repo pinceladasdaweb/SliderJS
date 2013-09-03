@@ -61,6 +61,7 @@ The minimum CSS slide should be as below:
     overflow: hidden;
     position: absolute;
     top: 0;
+    width: 5000em; /*Fix for prevent display errors*/
 
     // The range of the transition
     -webkit-transition: all 800ms ease;
