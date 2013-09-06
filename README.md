@@ -50,10 +50,10 @@ The minimum CSS slide should be as below:
 
 ```CSS
 .slider-container {
-    height: 425px; // The height of the slide
+    height: 425px; /*The height of the slide*/
     overflow: hidden;
     position: relative;
-    width: 990px; // The width of the slide
+    width: 990px; /*The width of the slide*/
 }
 
 .slider-container .slider-warpper {
@@ -72,8 +72,10 @@ The minimum CSS slide should be as below:
 
 .slider-container .slide {
     float: left;
+    height: 425px; /*The height of the slide for prevent display errors*/
     overflow: hidden;
     position: relative;
+    width: 990px; /*The width of the slide for prevent display errors*/
 }
 ```
 
