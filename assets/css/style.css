@@ -94,8 +94,10 @@ h1 {
 
 .slider-container .slide {
     float: left;
+    height: 425px;
     overflow: hidden;
     position: relative;
+    width: 990px;
 }
 
 .slider-nav {
