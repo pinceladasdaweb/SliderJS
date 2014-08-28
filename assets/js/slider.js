@@ -3,7 +3,7 @@
 SliderJS - jQuery Slider with CSS Transitions
 --------------------------------
 + https://github.com/pinceladasdaweb/SliderJS
-+ version 1.0
++ version 1.0.1
 + Copyright 2013 Pedro Rogerio
 + Licensed under the MIT license
 
@@ -43,10 +43,10 @@ var Slider = (function ($) {
         timer: null,
         config: function (config) {
             module.target    = config.target;
-            module.sWidth    = module.target.find('.slider-warpper > .slide').outerWidth(true);
-            module.max       = module.target.find('.slider-warpper > .slide').length;
+            module.container = module.target.find('.slider-wrapper');
+            module.sWidth    = module.container.find('.slide').outerWidth(true);
+            module.max       = module.container.find('.slide').length;
             module.tWidth    = module.sWidth * module.max;
-            module.container = module.target.find('.slider-warpper');
             module.time      = config.time || 5000;
         },
         early: function () {
