@@ -5,13 +5,13 @@ jQuery Slider with CSS Transitions
 
 ##Usage
 
-1. Paste right before your page's closing `</body>` tag
+1 - Paste right before your page's closing `</body>` tag
 ```html
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/slider.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="slider.min.js"></script>
 ```
 
-2. From within a script tag or a JS file
+2 - From within a script tag or a JS file
 ```javascript
 Slider.init({
 	target: $('.slider'), // domNode to attach to
@@ -26,7 +26,7 @@ The HTML structure damn slide is as listed below:
 ```html
 <div class="slider">
     <div class="slider-container">
-        <div class="slider-warpper">
+        <div class="slider-wrapper">
             <div class="slide">
                 <!-- html here -->
             </div>
@@ -56,7 +56,7 @@ The minimum CSS slide should be as below:
     width: 990px; /*The width of the slide*/
 }
 
-.slider-container .slider-warpper {
+.slider-container .slider-wrapper {
     left: 0;
     overflow: hidden;
     position: absolute;
